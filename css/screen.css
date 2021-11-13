@@ -12,13 +12,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 /* Begin site styles below */
- html {
-  width: 334px;
-  height: 1334px;
-  background-color: rgb(23, 185, 235);
-  font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-size: 14ch 133ch;
- }
+
+/* CSS Styles for home page */
+html {
+background-color: rgb(37, 218, 250);
+  color: black;
+  line-height: 1.333em; /* 24/18 = 1.333em */
+  margin: 0.555em; /* 10/18 = 0.555em */
+}
 
 /* CSS Styles for resume page */
+html {
+  background: color white;
+ color: black;
+ font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.125em; /* 18/16 = 1.125em */
+  line-height: 1.333em; /* 24/18 = 1.333em */
+  margin: 0.555em; /* 10/18 = 0.555em */
+}
+
 /* css Sryles for hobbies page */
